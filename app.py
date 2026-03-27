@@ -15,6 +15,7 @@ try:
 except:
     nltk.download('stopwords')
     nltk.download('punkt')
+    nltk.download('punkt_tab')
 
 
 # 🔹 3. Initialize objects
