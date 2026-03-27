@@ -9,13 +9,10 @@ from nltk.tokenize import word_tokenize
 from nltk.stem.porter import PorterStemmer
 
 
-# 🔹 2. Download (only if not available)
-try:
-    stopwords.words('english')
-except:
-    nltk.download('stopwords')
-    nltk.download('punkt')
-    nltk.download('punkt_tab')
+
+nltk.download('punkt', quiet=True)
+nltk.download('punkt_tab', quiet=True)
+nltk.download('stopwords', quiet=True)
 
 
 # 🔹 3. Initialize objects
