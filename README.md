@@ -86,7 +86,7 @@ Spam messages are a common issue in communication systems. This project aims to 
 
 ## 🖥️ How to Run Locally
 
-```bash
+#```bash
 # Clone repository
 git clone https://github.com/your-username/your-repo-name.git
 
@@ -98,3 +98,8 @@ pip install -r requirements.txt
 
 # Run app
 streamlit run app.py
+
+
+## 📂 Dataset
+Dataset used for training:
+👉 [https://www.kaggle.com/datasets/your-dataset-link](https://www.kaggle.com/datasets/jackksoncsie/spam-email-dataset)
