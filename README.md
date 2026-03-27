@@ -88,7 +88,7 @@ Spam messages are a common issue in communication systems. This project aims to 
 
 
 # Clone repository
-git clone https://github.com/your-username/your-repo-name.git
+git clone [https://github.com/your-username/your-repo-name.git](https://github.com/shreyashmulik5444/spam-vision)
 
 # Navigate to project folder
 cd your-repo-name
