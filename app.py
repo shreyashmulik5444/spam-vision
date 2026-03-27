@@ -10,10 +10,17 @@ from nltk.stem.porter import PorterStemmer
 
 
 
-nltk.download('punkt', quiet=True)
-nltk.download('punkt_tab', quiet=True)
-nltk.download('stopwords', quiet=True)
 
+import os
+
+# Set custom path
+nltk_data_path = os.path.join(os.getcwd(), "nltk_data")
+nltk.data.path.append(nltk_data_path)
+
+# Force download to that path
+nltk.download('punkt', download_dir=nltk_data_path, quiet=True)
+nltk.download('punkt_tab', download_dir=nltk_data_path, quiet=True)
+nltk.download('stopwords', download_dir=nltk_data_path, quiet=True)
 
 # 🔹 3. Initialize objects
 ps = PorterStemmer()
