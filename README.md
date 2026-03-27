@@ -1,4 +1,4 @@
-# 🚀 SpamVision – Spam Detection Web App
+# 🚀 SpamVision – Email/SMS Spam Detection Engine
 
 ## 📌 Overview
 SpamVision is a Machine Learning-based web application that detects whether a given message is Spam or Ham (Not Spam) using Natural Language Processing (NLP).
