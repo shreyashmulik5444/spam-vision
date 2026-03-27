@@ -86,7 +86,7 @@ Spam messages are a common issue in communication systems. This project aims to 
 
 ## 🖥️ How to Run Locally
 
-#```bash
+
 # Clone repository
 git clone https://github.com/your-username/your-repo-name.git
 
